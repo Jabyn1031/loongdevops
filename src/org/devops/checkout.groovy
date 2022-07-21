@@ -1,6 +1,6 @@
 package org.devops
 
-def Dotnet6CheckOut(PathOfDir, GitName, GitPasswd, BranchName, ScoUrl, GerritRefsm) {
+def MonoCheckOut(PathOfDir, GitName, GitPasswd, BranchName, ScoUrl, GerritRefsm) {
     def CodeDir = new File("${PathOfDir}")
     Boolean bool = CodeDir.isDirctory()
     if (bool) {
